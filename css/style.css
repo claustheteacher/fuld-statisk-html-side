@@ -1,0 +1,102 @@
+/*sætter div box-sizing til border-box for at bibeholder den korrekt bredde*/
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color: #f3f3f3;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*Container div til at centerjustere siden*/
+#container{
+    width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    
+}
+/*styling af topmenu bar og logo*/
+#topmenu{
+    padding: 15px 0;
+    height: 50px;
+}
+#nav{
+    margin: 0 20px;
+}
+#topmenu .menulist{
+    list-style-type: none;
+    display: inline;
+}
+#topmenu .menulist > a{
+    padding: 10px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: #2b2a2a;
+}
+#topmenu .menulist > a:hover{
+    background-color: #2b2b2b;
+    border-radius: 3px;
+    color: #fff;
+}
+#logo{
+    width: 50px;
+    margin-left: 20px;
+}
+/*Header*/
+#header{
+    background-color: aliceblue;
+    height: 300px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+#main{
+    clear: both;   
+}
+
+#content{
+    padding: 20px 10px 30px;
+    width: 66%;
+}
+
+#sidebar{
+    width: 33%;
+    padding: 10px;
+}
+
+#footer{
+    min-height: 50px;
+    background-color: #000;
+    color: #f2f2f2;
+    padding: 10px 0;
+}
+
+#copyright-text{
+    text-align: center;
+    
+}
+
+
+/*styler knapper*/
+.btn{ 
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.btn .green{
+    background-color: #5cb85c;
+    color: #fff;
+}
+
+/*Hjælpe class til at floate elementer*/
+
+.pull-left{
+    float: left;
+}
+.pull-right{
+    float: right;
+}
+.clear{
+    clear: both;
+}
+
